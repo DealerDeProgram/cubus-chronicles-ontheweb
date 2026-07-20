@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <title>The Cubus Chronicles</title>
+  <meta name='description' content='Official website of The Cubus Chronicles Minecraft project.' />
+  <link rel='stylesheet' href='style.css' />
+  <link rel='preconnect' href='https://fonts.googleapis.com'>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link href='https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap' rel='stylesheet'>
+</head>
+<body>
+  <div class='background'></div>
+
+  <header class='navbar'>
+    <div class='logo'>
+      <span class='logo-mark'>⬢</span>
+      <span>The Cubus Chronicles</span>
+    </div>
+    <nav>
+      <a href='#connect'>Connect</a>
+      <a href='#rules'>Rules</a>
+      <a href='#mods'>Mods</a>
+      <a href='#gallery'>Gallery</a>
+      <a href='#discord'>Discord</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class='hero'>
+      <div class='hero-content'>
+        <p class='eyebrow'>Official Minecraft Project</p>
+        <h1>The Cubus Chronicles</h1>
+        <p class='subtitle'>
+          A persistent medieval-fantasy world built around exploration,
+          towns, diplomacy, conflict, and player-driven history.
+        </p>
+
+        <div class='hero-actions'>
+          <a class='btn btn-primary' href='#connect'>Join the Realm</a>
+          <a class='btn btn-secondary' href='https://discord.gg/tMDNban3jT' target='_blank' rel='noopener'>Open Discord</a>
+        </div>
+
+        <div class='status-card'>
+          <div class='status-dot'></div>
+          <div>
+            <strong>Server status</strong>
+            <p>Online • GitHub Pages • Paper 1.21.1</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id='connect' class='section'>
+      <div class='section-header'>
+        <p class='eyebrow'>Connection</p>
+        <h2>Connect to the server</h2>
+      </div>
+
+      <div class='connect-grid'>
+        <div class='card'>
+          <div class='card-icon'>🌐</div>
+          <h3>Server Address</h3>
+          <div class='server-box'>
+            <code id='serverIp'>YOUR_IP:24758</code>
+            <button class='copy-btn' onclick='copyIP()'>Copy</button>
+          </div>
+          <p class='muted'>Replace with your Aternos address or custom domain.</p>
+        </div>
+
+        <div class='card'>
+          <div class='card-icon'>⚙️</div>
+          <h3>Compatibility</h3>
+          <ul class='feature-list'>
+            <li><span>Version</span><strong>1.21.1</strong></li>
+            <li><span>Server</span><strong>Paper</strong></li>
+            <li><span>Clients</span><strong>Java Edition</strong></li>
+            <li><span>Mode</span><strong>RP / Survival</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id='rules' class='section'>
+      <div class='section-header'>
+        <p class='eyebrow'>Law of the Realm</p>
+        <h2>Core rules</h2>
+      </div>
+
+      <div class='rules-grid'>
+        <div class='rule-card'>
+          <span class='rule-number'>01</span>
+          <h3>Respect</h3>
+          <p>Harassment, hate speech, and targeted toxicity are not tolerated.</p>
+        </div>
+        <div class='rule-card'>
+          <span class='rule-number'>02</span>
+          <h3>Fair Play</h3>
+          <p>No cheats, x-ray, fly hacks, kill aura, or other unfair advantages.</p>
+        </div>
+        <div class='rule-card'>
+          <span class='rule-number'>03</span>
+          <h3>RP Integrity</h3>
+          <p>Keep roleplay coherent and avoid intentionally breaking immersion.</p>
+        </div>
+        <div class='rule-card'>
+          <span class='rule-number'>04</span>
+          <h3>Build Protection</h3>
+          <p>Griefing protected towns or community projects is forbidden.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id='mods' class='section'>
+      <div class='section-header'>
+        <p class='eyebrow'>Client Policy</p>
+        <h2>Authorized client-side mods</h2>
+      </div>
+
+      <div class='mods-grid'>
+        <div class='mod-item'>Sodium</div>
+        <div class='mod-item'>Lithium</div>
+        <div class='mod-item'>FerriteCore</div>
+        <div class='mod-item'>JourneyMap</div>
+        <div class='mod-item'>Litematica</div>
+        <div class='mod-item'>Mod Menu</div>
+        <div class='mod-item'>Iris Shaders</div>
+        <div class='mod-item'>Distant Horizons</div>
+      </div>
+
+      <p class='muted center'>
+        Optimization, mapping, schematic, and visual enhancement mods are generally allowed.
+        Combat automation and unfair gameplay modifications are not.
+      </p>
+    </section>
+
+    <section id='gallery' class='section'>
+      <div class='section-header'>
+        <p class='eyebrow'>World Preview</p>
+        <h2>Build gallery</h2>
+      </div>
+
+      <div class='gallery-grid'>
+        <img src='https://images.unsplash.com/photo-1518709268805-4e9042af2176?q=80&w=1200&auto=format&fit=crop' alt='Castle'>
+        <img src='https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=1200&auto=format&fit=crop' alt='Town'>
+        <img src='https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=1200&auto=format&fit=crop' alt='Fantasy landscape'>
+        <img src='https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop' alt='Mountains'>
+      </div>
+
+      <p class='muted center'>
+        Replace these placeholders with screenshots from your actual Minecraft world.
+      </p>
+    </section>
+
+    <section id='discord' class='section'>
+      <div class='discord-card'>
+        <div>
+          <p class='eyebrow'>Community</p>
+          <h2>Join the Discord</h2>
+          <p>
+            Receive announcements, participate in events, coordinate towns,
+            and access the bridge between Discord and Minecraft chat.
+          </p>
+        </div>
+
+        <a class='btn btn-primary large' href='https://discord.gg/tMDNban3jT' target='_blank' rel='noopener'>
+          Open Discord
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class='footer'>
+    <p>© <span id='year'></span> The Cubus Chronicles • Official community website</p>
+    <p class='footer-sub'>Hosted on GitHub Pages • Static • Fast • Free</p>
+  </footer>
+
+  <script src='script.js'></script>
+</body>
+</html>
